@@ -307,10 +307,10 @@ processAlternativeValue(Value, Count,
       _ -> MixedChild
     end,
 
-  if 
-   Count > MaxAlt -> throw({error, "too many values"});
-   true -> true
-  end,
+  % if 
+  %  Count > MaxAlt -> throw({error, "too many values"});
+  %  true -> true
+  % end,
 
   TagAsText = atom_to_list(Tag),
   if 
